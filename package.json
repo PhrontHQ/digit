@@ -8,7 +8,7 @@
     "url": "https://github.com/montagejs/digit.git"
   },
   "dependencies": {
-    "montage": "montagejs/montage#master"
+    "montage": "github:marchant/montage#montage-19"
   },
   "devDependencies": {
     "concurrently": "^3.4.0",
