@@ -3,10 +3,10 @@
         "prototype": "montage/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
-                "blueprintName": "Component",
-                "prototypeName": "Component",
+                "blueprintName": "AbstractCheckbox",
+                "prototypeName": "AbstractCheckbox",
                 "blueprintModule": {
-                    "%": "ui/component.meta"
+                    "%": "montage/ui/base/abstract-checkbox.mjson"
                 }
             }
         }
@@ -14,16 +14,16 @@
     "root": {
         "prototype": "montage/core/meta/module-blueprint",
         "properties": {
-            "name": "ListItem",
+            "name": "Checkbox",
             "parent": {
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/list-item.reel/list-item.meta"
+                "%": "ui/checkbox.reel/checkbox.mjson"
             },
-            "exportName": "ListItem",
+            "exportName": "Checkbox",
             "module": {
-                "%": "ui/list-item.reel"
+                "%": "ui/checkbox.reel"
             }
         }
     }

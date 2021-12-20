@@ -3,10 +3,10 @@
         "prototype": "montage/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
-                "blueprintName": "AbstractTextArea",
-                "prototypeName": "AbstractTextArea",
+                "blueprintName": "Component",
+                "prototypeName": "Component",
                 "blueprintModule": {
-                    "%": "montage/ui/base/abstract-text-area.meta"
+                    "%": "ui/component.mjson"
                 }
             }
         }
@@ -14,16 +14,16 @@
     "root": {
         "prototype": "montage/core/meta/module-blueprint",
         "properties": {
-            "name": "TextArea",
+            "name": "ListItem",
             "parent": {
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/text-area.reel/text-area.meta"
+                "%": "ui/list-item.reel/list-item.mjson"
             },
-            "exportName": "TextArea",
+            "exportName": "ListItem",
             "module": {
-                "%": "ui/text-area.reel"
+                "%": "ui/list-item.reel"
             }
         }
     }

@@ -6,7 +6,7 @@
                 "blueprintName": "Component",
                 "prototypeName": "Component",
                 "blueprintModule": {
-                    "%": "montage/ui/component.meta"
+                    "%": "montage/ui/component.mjson"
                 }
             }
         }
@@ -90,7 +90,7 @@
                 ]
             },
             "blueprintModule": {
-                "%": "ui/big-list.reel/big-list.meta"
+                "%": "ui/big-list.reel/big-list.mjson"
             },
             "exportName": "BigList",
             "module": {

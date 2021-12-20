@@ -3,10 +3,10 @@
         "prototype": "montage/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
-                "blueprintName": "AbstractImage",
-                "prototypeName": "AbstractImage",
+                "blueprintName": "AbstractRadioButton",
+                "prototypeName": "AbstractRadioButton",
                 "blueprintModule": {
-                    "%": "montage/ui/base/abstract-image.meta"
+                    "%": "montage/ui/base/abstract-radio-button.mjson"
                 }
             }
         }
@@ -14,16 +14,16 @@
     "root": {
         "prototype": "montage/core/meta/module-blueprint",
         "properties": {
-            "name": "Image",
+            "name": "RadioButton",
             "parent": {
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/image.reel/image.meta"
+                "%": "ui/radio-button.reel/radio-button.mjson"
             },
-            "exportName": "Image",
+            "exportName": "RadioButton",
             "module": {
-                "%": "ui/image.reel"
+                "%": "ui/radio-button.reel"
             }
         }
     }

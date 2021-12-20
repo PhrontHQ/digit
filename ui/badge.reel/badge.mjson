@@ -6,7 +6,7 @@
                 "blueprintName": "Text",
                 "prototypeName": "Text",
                 "blueprintModule": {
-                    "%": "montage/ui/text.reel/text.meta"
+                    "%": "montage/ui/text.reel/text.mjson"
                 }
             }
         }
@@ -14,16 +14,16 @@
     "root": {
         "prototype": "montage/core/meta/module-blueprint",
         "properties": {
-            "name": "Text",
+            "name": "Badge",
             "parent": {
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/text.reel/text.meta"
+                "%": "ui/badge.reel/badge.mjson"
             },
-            "exportName": "Text",
+            "exportName": "Badge",
             "module": {
-                "%": "ui/text.reel"
+                "%": "ui/badge.reel"
             }
         }
     }

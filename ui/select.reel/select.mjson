@@ -3,10 +3,10 @@
         "prototype": "montage/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
-                "blueprintName": "Text",
-                "prototypeName": "Text",
+                "blueprintName": "AbstractSelect",
+                "prototypeName": "AbstractSelect",
                 "blueprintModule": {
-                    "%": "montage/ui/text.reel/text.meta"
+                    "%": "montage/ui/base/abstract-select.mjson"
                 }
             }
         }
@@ -14,16 +14,16 @@
     "root": {
         "prototype": "montage/core/meta/module-blueprint",
         "properties": {
-            "name": "Title",
+            "name": "Select",
             "parent": {
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/title.reel/title.meta"
+                "%": "ui/select.reel/select.mjson"
             },
-            "exportName": "Title",
+            "exportName": "Select",
             "module": {
-                "%": "ui/title.reel"
+                "%": "ui/select.reel"
             }
         }
     }

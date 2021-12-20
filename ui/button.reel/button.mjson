@@ -3,10 +3,10 @@
         "prototype": "montage/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
-                "blueprintName": "AbstractTextField",
-                "prototypeName": "AbstractTextField",
+                "blueprintName": "AbstractButton",
+                "prototypeName": "AbstractButton",
                 "blueprintModule": {
-                    "%": "montage/ui/base/abstract-text-field.meta"
+                    "%": "montage/ui/base/abstract-button.mjson"
                 }
             }
         }
@@ -14,16 +14,16 @@
     "root": {
         "prototype": "montage/core/meta/module-blueprint",
         "properties": {
-            "name": "TextField",
+            "name": "Button",
             "parent": {
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/text-field.reel/text-field.meta"
+                "%": "ui/button.reel/button.mjson"
             },
-            "exportName": "TextField",
+            "exportName": "Button",
             "module": {
-                "%": "ui/text-field.reel"
+                "%": "ui/button.reel"
             }
         }
     }
