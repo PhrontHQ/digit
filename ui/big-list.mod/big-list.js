@@ -1,5 +1,5 @@
 /**
-    @module "ui/big-list.reel"
+    @module "ui/big-list.mod"
 */
 var Montage = require("montage").Montage,
     Component = require("montage/ui/component").Component,

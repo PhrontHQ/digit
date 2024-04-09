@@ -6,7 +6,7 @@
                 "blueprintName": "Text",
                 "prototypeName": "Text",
                 "blueprintModule": {
-                    "%": "montage/ui/text.reel/text.mjson"
+                    "%": "montage/ui/text.mod/text.mjson"
                 }
             }
         }
@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/title.reel/title.mjson"
+                "%": "ui/title.mod/title.mjson"
             },
             "exportName": "Title",
             "module": {
-                "%": "ui/title.reel"
+                "%": "ui/title.mod"
             }
         }
     }

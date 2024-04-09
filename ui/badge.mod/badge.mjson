@@ -6,7 +6,7 @@
                 "blueprintName": "Text",
                 "prototypeName": "Text",
                 "blueprintModule": {
-                    "%": "montage/ui/text.reel/text.mjson"
+                    "%": "montage/ui/text.mod/text.mjson"
                 }
             }
         }
@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/badge.reel/badge.mjson"
+                "%": "ui/badge.mod/badge.mjson"
             },
             "exportName": "Badge",
             "module": {
-                "%": "ui/badge.reel"
+                "%": "ui/badge.mod"
             }
         }
     }

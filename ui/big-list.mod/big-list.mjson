@@ -90,11 +90,11 @@
                 ]
             },
             "blueprintModule": {
-                "%": "ui/big-list.reel/big-list.mjson"
+                "%": "ui/big-list.mod/big-list.mjson"
             },
             "exportName": "BigList",
             "module": {
-                "%": "ui/big-list.reel"
+                "%": "ui/big-list.mod"
             }
         }
     }

@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/number-field.reel/number-field.mjson"
+                "%": "ui/number-field.mod/number-field.mjson"
             },
             "exportName": "NumberField",
             "module": {
-                "%": "ui/number-field.reel"
+                "%": "ui/number-field.mod"
             }
         }
     }

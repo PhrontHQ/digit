@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/slider.reel/slider.mjson"
+                "%": "ui/slider.mod/slider.mjson"
             },
             "exportName": "Slider",
             "module": {
-                "%": "ui/slider.reel"
+                "%": "ui/slider.mod"
             }
         }
     }

@@ -1,9 +1,9 @@
 /**
- * @module "digit/ui/text-field.reel"
+ * @module "digit/ui/text-field.mod"
  */
 var AbstractTextField = require("montage/ui/base/abstract-text-field").AbstractTextField;
 /**
- * ![TextField](https://raw.github.com/montagejs/digit/master/ui/text-field.reel/screenshot.png)
+ * ![TextField](https://raw.github.com/montagejs/digit/master/ui/text-field.mod/screenshot.png)
  *
  * The TextField component wraps an HTML `<input type="text">` element.
  *
@@ -11,7 +11,7 @@ var AbstractTextField = require("montage/ui/base/abstract-text-field").AbstractT
  *
  * ```json
  * "textField": {
- *     "prototype": "digit/ui/text-field.reel",
+ *     "prototype": "digit/ui/text-field.mod",
  *     "properties": {
  *         "element": {"#": "textField"}
  *     }

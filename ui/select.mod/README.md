@@ -8,7 +8,7 @@ The Select Input component wraps an HTML `<select>` element.
 
 ```json
 "select": {
-    "prototype": "digit/ui/select.reel",
+    "prototype": "digit/ui/select.mod",
     "properties": {
         "element": {"#": "select"},
         "content": [

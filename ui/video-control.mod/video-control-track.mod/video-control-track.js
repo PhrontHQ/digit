@@ -1,5 +1,5 @@
 /**
-    @module ui/video-control.reel/video-control-track.reel
+    @module ui/video-control.mod/video-control-track.mod
     @requires montage
     @requires montage/ui/component
 */

@@ -1,15 +1,15 @@
 /**
- * @module "digit/ui/checkbox.reel"
+ * @module "digit/ui/checkbox.mod"
  */
 var AbstractCheckbox = require("montage/ui/base/abstract-checkbox").AbstractCheckbox;
 /**
- * ![Checkbox](https://raw.github.com/montagejs/digit/master/ui/checkbox.reel/screenshot.png)
+ * ![Checkbox](https://raw.github.com/montagejs/digit/master/ui/checkbox.mod/screenshot.png)
  *
  * ### How to use
  *
  * ```json
  * "checkbox": {
- *     "prototype": "digit/ui/checkbox.reel",
+ *     "prototype": "digit/ui/checkbox.mod",
  *     "properties": {
  *         "element": {"#": "checkbox"}
  *     }

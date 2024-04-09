@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/list-item.reel/list-item.mjson"
+                "%": "ui/list-item.mod/list-item.mjson"
             },
             "exportName": "ListItem",
             "module": {
-                "%": "ui/list-item.reel"
+                "%": "ui/list-item.mod"
             }
         }
     }

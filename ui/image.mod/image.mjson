@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/image.reel/image.mjson"
+                "%": "ui/image.mod/image.mjson"
             },
             "exportName": "Image",
             "module": {
-                "%": "ui/image.reel"
+                "%": "ui/image.mod"
             }
         }
     }

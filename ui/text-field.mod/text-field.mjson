@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/text-field.reel/text-field.mjson"
+                "%": "ui/text-field.mod/text-field.mjson"
             },
             "exportName": "TextField",
             "module": {
-                "%": "ui/text-field.reel"
+                "%": "ui/text-field.mod"
             }
         }
     }

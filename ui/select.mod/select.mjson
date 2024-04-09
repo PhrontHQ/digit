@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/select.reel/select.mjson"
+                "%": "ui/select.mod/select.mjson"
             },
             "exportName": "Select",
             "module": {
-                "%": "ui/select.reel"
+                "%": "ui/select.mod"
             }
         }
     }

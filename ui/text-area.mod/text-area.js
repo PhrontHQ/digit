@@ -1,15 +1,15 @@
 /**
- * @module "digit/ui/text-area.reel"
+ * @module "digit/ui/text-area.mod"
  */
 var AbstractTextArea = require("montage/ui/base/abstract-text-area").AbstractTextArea;
 /**
- * ![TextArea](https://raw.github.com/montagejs/digit/master/ui/text-area.reel/screenshot.png)
+ * ![TextArea](https://raw.github.com/montagejs/digit/master/ui/text-area.mod/screenshot.png)
  *
  * ### How to use
  *
  * ```json
  * "textArea": {
- *     "prototype": "digit/ui/text-area.reel",
+ *     "prototype": "digit/ui/text-area.mod",
  *     "properties": {
  *         "element": {"#": "textArea"}
  *     }

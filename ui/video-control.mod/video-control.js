@@ -1,5 +1,5 @@
 /**
-    @module "ui/video-control.reel"
+    @module "ui/video-control.mod"
     @requires montage
     @requires montage/ui/component
 */
@@ -8,10 +8,10 @@ var Component = require("montage/ui/component").Component,
 
 /**
     Description TODO
-    @class module:"ui/video-control.reel".VideoControl
+    @class module:"ui/video-control.mod".VideoControl
     @extends module:montage/ui/component.Component
 */
-exports.VideoControl = Component.specialize( /** @lends module:"ui/video-control.reel".VideoControl# */ {
+exports.VideoControl = Component.specialize( /** @lends module:"ui/video-control.mod".VideoControl# */ {
 
     // Lifecycle
 

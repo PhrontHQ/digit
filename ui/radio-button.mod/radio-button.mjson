@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/radio-button.reel/radio-button.mjson"
+                "%": "ui/radio-button.mod/radio-button.mjson"
             },
             "exportName": "RadioButton",
             "module": {
-                "%": "ui/radio-button.reel"
+                "%": "ui/radio-button.mod"
             }
         }
     }

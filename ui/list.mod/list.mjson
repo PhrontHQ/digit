@@ -90,11 +90,11 @@
                 ]
             },
             "blueprintModule": {
-                "%": "ui/list.reel/list.mjson"
+                "%": "ui/list.mod/list.mjson"
             },
             "exportName": "List",
             "module": {
-                "%": "ui/list.reel"
+                "%": "ui/list.mod"
             }
         }
     }

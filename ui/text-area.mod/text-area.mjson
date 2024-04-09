@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/text-area.reel/text-area.mjson"
+                "%": "ui/text-area.mod/text-area.mjson"
             },
             "exportName": "TextArea",
             "module": {
-                "%": "ui/text-area.reel"
+                "%": "ui/text-area.mod"
             }
         }
     }

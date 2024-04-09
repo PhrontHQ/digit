@@ -1,10 +1,10 @@
 /**
- * @module "digit/ui/text.reel"
+ * @module "digit/ui/text.mod"
  */
-var MontageText = require("montage/ui/text.reel").Text;
+var MontageText = require("montage/ui/text.mod").Text;
 
 /**
- * ![Text](https://raw.github.com/montagejs/digit/master/ui/text.reel/screenshot.png)
+ * ![Text](https://raw.github.com/montagejs/digit/master/ui/text.mod/screenshot.png)
  *
  * The Text component can be used for any kind of dynamic text.
  *
@@ -12,7 +12,7 @@ var MontageText = require("montage/ui/text.reel").Text;
  *
  * ```json
  * "text": {
- *     "prototype": "digit/ui/text.reel",
+ *     "prototype": "digit/ui/text.mod",
  *     "properties": {
  *         "element": {"#": "text"}
  *     }

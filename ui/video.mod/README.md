@@ -2,7 +2,7 @@
 
 Status: __In progress__
 
-![Video](https://raw.github.com/montagejs/digit/master/ui/video.reel/screenshot.png)
+![Video](https://raw.github.com/montagejs/digit/master/ui/video.mod/screenshot.png)
 
 The Video component wraps a video element and provides custom controls.
 
@@ -14,7 +14,7 @@ The Video component wraps a video element and provides custom controls.
 
 ```json
 "video": {
-    "prototype": "ui/video.reel",
+    "prototype": "ui/video.mod",
     "properties": {
         "element": {"#": "video"},
         "src": "movie.ogg",
@@ -38,7 +38,7 @@ Multiple source files can be specified with the `sources` property. The Video co
 
 ```json
 "video": {
-    "prototype": "ui/video.reel",
+    "prototype": "ui/video.mod",
     "properties": {
         "element": {"#": "video"},
         "sources": [
@@ -61,7 +61,7 @@ Playback of multiple videos can be synchronized by using the same MediaControlle
 
 ```json
 "video1": {
-    "prototype": "ui/video.reel",
+    "prototype": "ui/video.mod",
     "properties": {
         "element": {"#": "video1"},
         "videoController" : {"@": "mediaController"},
@@ -69,7 +69,7 @@ Playback of multiple videos can be synchronized by using the same MediaControlle
     }
 },
 "video2": {
-    "prototype": "ui/video.reel",
+    "prototype": "ui/video.mod",
     "properties": {
         "element": {"#": "video2"},
         "videoController" : {"@": "mediaController"},

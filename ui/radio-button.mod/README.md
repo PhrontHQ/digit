@@ -6,7 +6,7 @@
 
 ```json
 "radio": {
-    "prototype": "digit/ui/radio-button.reel",
+    "prototype": "digit/ui/radio-button.mod",
     "properties": {
         "element": {"#": "radio"},
         "value": 1

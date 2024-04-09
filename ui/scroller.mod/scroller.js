@@ -1,5 +1,5 @@
 /**
- * @module "digit/ui/scroller.reel"
+ * @module "digit/ui/scroller.mod"
  */
 
 var Component = require("montage/ui/component").Component;

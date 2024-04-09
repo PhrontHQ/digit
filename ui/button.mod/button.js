@@ -1,9 +1,9 @@
 /**
- * @module "montage/ui/button.reel"
+ * @module "montage/ui/button.mod"
  */
 var AbstractButton = require("montage/ui/base/abstract-button").AbstractButton;
 /**
- * ![Button](https://raw.github.com/montagejs/digit/master/ui/button.reel/screenshot.png)
+ * ![Button](https://raw.github.com/montagejs/digit/master/ui/button.mod/screenshot.png)
  *
  * The Button component wraps a <button> or <input type="button"> element.
  *
@@ -11,7 +11,7 @@ var AbstractButton = require("montage/ui/base/abstract-button").AbstractButton;
  *
  * ```json
  * "button": {
- *     "prototype": "digit/ui/button.reel",
+ *     "prototype": "digit/ui/button.mod",
  *     "properties": {
  *         "element": {"#": "button"}
  *     }

@@ -1,9 +1,9 @@
 /**
- * @module "digit/ui/number-field.reel"
+ * @module "digit/ui/number-field.mod"
  */
 var AbstractNumberField = require("montage/ui/base/abstract-number-field").AbstractNumberField;
 /**
- * ![NumberField](https://raw.github.com/montagejs/digit/master/ui/number-field.reel/screenshot.png)
+ * ![NumberField](https://raw.github.com/montagejs/digit/master/ui/number-field.mod/screenshot.png)
  *
  * The Number Field component wraps an HTML `<input type="number">` element and adds a plus and minus stepper button.
  *
@@ -11,7 +11,7 @@ var AbstractNumberField = require("montage/ui/base/abstract-number-field").Abstr
  *
  * ```json
  * "number": {
- *     "prototype": "digit/ui/number-field.reel",
+ *     "prototype": "digit/ui/number-field.mod",
  *     "properties": {
  *         "element": {"#": "number"},
  *         "value": 0

@@ -1,5 +1,5 @@
 /**
- * @module "digit/ui/image.reel"
+ * @module "digit/ui/image.mod"
  */
 var AbstractImage = require("montage/ui/base/abstract-image").AbstractImage;
 /**

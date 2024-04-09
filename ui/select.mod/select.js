@@ -1,9 +1,9 @@
 /**
- * @module "digit/ui/select.reel"
+ * @module "digit/ui/select.mod"
  */
 var AbstractSelect = require("montage/ui/base/abstract-select").AbstractSelect;
 /**
- * ![Select](https://raw.github.com/montagejs/digit/master/ui/select.reel/screenshot.png)
+ * ![Select](https://raw.github.com/montagejs/digit/master/ui/select.mod/screenshot.png)
  *
  * The Select Input component wraps an HTML `<select>` element.
  *
@@ -11,7 +11,7 @@ var AbstractSelect = require("montage/ui/base/abstract-select").AbstractSelect;
  *
  * ```json
  * "select": {
- *     "prototype": "digit/ui/select.reel",
+ *     "prototype": "digit/ui/select.mod",
  *     "properties": {
  *         "element": {"#": "select"},
  *         "content": [

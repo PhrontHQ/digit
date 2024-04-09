@@ -8,7 +8,7 @@ The Slider component wraps an HTML `<input type="range">` element.
 
 ```json
 "slider": {
-    "prototype": "digit/ui/slider.reel",
+    "prototype": "digit/ui/slider.mod",
     "properties": {
         "element": {"#": "slider"}
     }

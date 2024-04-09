@@ -19,11 +19,11 @@
                 "@": "blueprint_parent"
             },
             "blueprintModule": {
-                "%": "ui/checkbox.reel/checkbox.mjson"
+                "%": "ui/checkbox.mod/checkbox.mjson"
             },
             "exportName": "Checkbox",
             "module": {
-                "%": "ui/checkbox.reel"
+                "%": "ui/checkbox.mod"
             }
         }
     }
