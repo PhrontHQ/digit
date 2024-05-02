@@ -9,7 +9,7 @@
     "button-small": { "prototype": "ui/button.mod", "properties": { "element": {"#": "button-small"} } },
     "button-x-small": { "prototype": "ui/button.mod", "properties": { "element": {"#": "button-x-small"} } },
 
-    "radioButtonController-1": { "prototype": "montage/core/radio-button-controller", "properties": {"value": 1} },
+    "radioButtonController-1": { "prototype": "mod/core/radio-button-controller", "properties": {"value": 1} },
     "radioButton-1A": { "prototype": "ui/radio-button.mod", "properties": { "element": {"#": "radioButton-1A"}, "radioButtonController": {"@": "radioButtonController-1"}, "value": 1 } },
     "radioButton-1B": { "prototype": "ui/radio-button.mod", "properties": { "element": {"#": "radioButton-1B"}, "radioButtonController": {"@": "radioButtonController-1"}, "value": 2 } },
     "radioButton-1C": { "prototype": "ui/radio-button.mod", "properties": { "element": {"#": "radioButton-1C"}, "radioButtonController": {"@": "radioButtonController-1"}, "value": 3 } },

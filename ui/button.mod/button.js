@@ -1,7 +1,7 @@
 /**
- * @module "montage/ui/button.mod"
+ * @module "mod/ui/button.mod"
  */
-var AbstractButton = require("montage/ui/base/abstract-button").AbstractButton;
+var AbstractButton = require("mod/ui/base/abstract-button").AbstractButton;
 /**
  * ![Button](https://raw.github.com/montagejs/digit/master/ui/button.mod/screenshot.png)
  *

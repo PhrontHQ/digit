@@ -1,7 +1,7 @@
 /**
  * @module "digit/ui/checkbox.mod"
  */
-var AbstractCheckbox = require("montage/ui/base/abstract-checkbox").AbstractCheckbox;
+var AbstractCheckbox = require("mod/ui/base/abstract-checkbox").AbstractCheckbox;
 /**
  * ![Checkbox](https://raw.github.com/montagejs/digit/master/ui/checkbox.mod/screenshot.png)
  *

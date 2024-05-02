@@ -1,11 +1,11 @@
 /**
     @module ui/video-control.mod/video-control-track.mod
     @requires montage
-    @requires montage/ui/component
+    @requires mod/ui/component
 */
-var AbstractSlider = require("montage/ui/base/abstract-slider").AbstractSlider,
-    AbstractProgressBar = require("montage/ui/base/abstract-progress-bar").AbstractProgressBar,
-    Component = require("montage/ui/component").Component;
+var AbstractSlider = require("mod/ui/base/abstract-slider").AbstractSlider,
+    AbstractProgressBar = require("mod/ui/base/abstract-progress-bar").AbstractProgressBar,
+    Component = require("mod/ui/component").Component;
 
 /**
     Description TODO

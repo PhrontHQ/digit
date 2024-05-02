@@ -1,7 +1,7 @@
 /**
  * @module "digit/ui/text-field.mod"
  */
-var AbstractTextField = require("montage/ui/base/abstract-text-field").AbstractTextField;
+var AbstractTextField = require("mod/ui/base/abstract-text-field").AbstractTextField;
 /**
  * ![TextField](https://raw.github.com/montagejs/digit/master/ui/text-field.mod/screenshot.png)
  *

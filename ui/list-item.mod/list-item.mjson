@@ -1,6 +1,6 @@
 {
     "blueprint_parent": {
-        "prototype": "montage/core/meta/blueprint-reference",
+        "prototype": "mod/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
                 "blueprintName": "Component",
@@ -12,7 +12,7 @@
         }
     },
     "root": {
-        "prototype": "montage/core/meta/module-blueprint",
+        "prototype": "mod/core/meta/module-blueprint",
         "properties": {
             "name": "ListItem",
             "parent": {

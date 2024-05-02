@@ -77,7 +77,7 @@ Playback of multiple videos can be synchronized by using the same MediaControlle
     }
 },
 "mediaController": {
-    "prototype": "montage/core/media-controller",
+    "prototype": "mod/core/media-controller",
     "properties": {
         "autoplay": false
     }

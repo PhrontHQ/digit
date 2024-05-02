@@ -1,7 +1,7 @@
 /**
  * @module "digit/ui/text.mod"
  */
-var MontageText = require("montage/ui/text.mod").Text;
+var MontageText = require("mod/ui/text.mod").Text;
 
 /**
  * ![Text](https://raw.github.com/montagejs/digit/master/ui/text.mod/screenshot.png)

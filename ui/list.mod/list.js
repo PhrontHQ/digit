@@ -1,7 +1,7 @@
-var Component = require("montage/ui/component").Component,
-    observeProperty = require("montage/frb/observers").observeProperty;
+var Component = require("mod/ui/component").Component,
+    observeProperty = require("mod/frb/observers").observeProperty;
 
-var deprecationWarning = require("montage/core/deprecate").deprecationWarning;
+var deprecationWarning = require("mod/core/deprecate").deprecationWarning;
 
 exports.List = Component.specialize({
     constructor: {

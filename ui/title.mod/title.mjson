@@ -1,18 +1,18 @@
 {
     "blueprint_parent": {
-        "prototype": "montage/core/meta/blueprint-reference",
+        "prototype": "mod/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
                 "blueprintName": "Text",
                 "prototypeName": "Text",
                 "blueprintModule": {
-                    "%": "montage/ui/text.mod/text.mjson"
+                    "%": "mod/ui/text.mod/text.mjson"
                 }
             }
         }
     },
     "root": {
-        "prototype": "montage/core/meta/module-blueprint",
+        "prototype": "mod/core/meta/module-blueprint",
         "properties": {
             "name": "Title",
             "parent": {

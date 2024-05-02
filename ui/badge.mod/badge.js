@@ -1,12 +1,12 @@
 /**
     @module "ui/badge.mod"
 */
-var MontageText = require("montage/ui/text.mod").Text;
+var MontageText = require("mod/ui/text.mod").Text;
 
 /**
     Description TODO
     @class module:"ui/badge.mod".Badge
-    @extends module:montage/ui/component.Component
+    @extends module:mod/ui/component.Component
 */
 exports.Badge = MontageText.specialize(/** @lends module:"ui/badge.mod".Badge# */ {
     hasTemplate: {

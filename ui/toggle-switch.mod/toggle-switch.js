@@ -1,4 +1,4 @@
-var Montage = require("montage/core/core").Montage,
-    AbstractToggleSwitch = require("montage/ui/base/abstract-toggle-switch").AbstractToggleSwitch;
+var Montage = require("mod/core/core").Montage,
+    AbstractToggleSwitch = require("mod/ui/base/abstract-toggle-switch").AbstractToggleSwitch;
 
 exports.ToggleSwitch = AbstractToggleSwitch.specialize({ });

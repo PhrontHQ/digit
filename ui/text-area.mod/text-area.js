@@ -1,7 +1,7 @@
 /**
  * @module "digit/ui/text-area.mod"
  */
-var AbstractTextArea = require("montage/ui/base/abstract-text-area").AbstractTextArea;
+var AbstractTextArea = require("mod/ui/base/abstract-text-area").AbstractTextArea;
 /**
  * ![TextArea](https://raw.github.com/montagejs/digit/master/ui/text-area.mod/screenshot.png)
  *

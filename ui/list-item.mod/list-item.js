@@ -1,12 +1,12 @@
 /**
     @module "ui/list-item.mod"
 */
-var Component = require("montage/ui/component").Component;
+var Component = require("mod/ui/component").Component;
 
 /**
     Description TODO
     @class module:"ui/list-item.mod".ListItem
-    @extends module:montage/ui/component.Component
+    @extends module:mod/ui/component.Component
 */
 exports.ListItem = Component.specialize(/** @lends module:"ui/list-item.mod".ListItem# */ {
     highlight: {

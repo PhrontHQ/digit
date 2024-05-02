@@ -1,18 +1,18 @@
 {
     "blueprint_parent": {
-        "prototype": "montage/core/meta/blueprint-reference",
+        "prototype": "mod/core/meta/blueprint-reference",
         "properties": {
             "valueReference": {
                 "blueprintName": "AbstractSelect",
                 "prototypeName": "AbstractSelect",
                 "blueprintModule": {
-                    "%": "montage/ui/base/abstract-select.mjson"
+                    "%": "mod/ui/base/abstract-select.mjson"
                 }
             }
         }
     },
     "root": {
-        "prototype": "montage/core/meta/module-blueprint",
+        "prototype": "mod/core/meta/module-blueprint",
         "properties": {
             "name": "Select",
             "parent": {

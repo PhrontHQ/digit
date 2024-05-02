@@ -1,7 +1,7 @@
 /**
  * @module "digit/ui/select.mod"
  */
-var AbstractSelect = require("montage/ui/base/abstract-select").AbstractSelect;
+var AbstractSelect = require("mod/ui/base/abstract-select").AbstractSelect;
 /**
  * ![Select](https://raw.github.com/montagejs/digit/master/ui/select.mod/screenshot.png)
  *

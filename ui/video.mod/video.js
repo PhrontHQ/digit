@@ -1,7 +1,7 @@
-var Montage = require("montage/core/core").Montage;
-var Component = require("montage/ui/component").Component;
-var PressComposer = require("montage/composer/press-composer").PressComposer;
-var AbstractVideo = require("montage/ui/base/abstract-video").AbstractVideo;
+var Montage = require("mod/core/core").Montage;
+var Component = require("mod/ui/component").Component;
+var PressComposer = require("mod/composer/press-composer").PressComposer;
+var AbstractVideo = require("mod/ui/base/abstract-video").AbstractVideo;
 
 exports.Video = AbstractVideo.specialize({
 

@@ -1,7 +1,7 @@
 /**
  * @module "digit/ui/radio-button.mod"
  */
-var AbstractRadioButton = require("montage/ui/base/abstract-radio-button").AbstractRadioButton;
+var AbstractRadioButton = require("mod/ui/base/abstract-radio-button").AbstractRadioButton;
 
 /**
  * ![RadioButton](https://raw.github.com/montagejs/digit/master/ui/radio-button.mod/screenshot.png)

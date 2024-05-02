@@ -1,7 +1,7 @@
 /**
  * @module "digit/ui/number-field.mod"
  */
-var AbstractNumberField = require("montage/ui/base/abstract-number-field").AbstractNumberField;
+var AbstractNumberField = require("mod/ui/base/abstract-number-field").AbstractNumberField;
 /**
  * ![NumberField](https://raw.github.com/montagejs/digit/master/ui/number-field.mod/screenshot.png)
  *

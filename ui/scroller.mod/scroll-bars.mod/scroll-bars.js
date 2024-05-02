@@ -2,7 +2,7 @@
  * @module "digit/ui/scroller.mod/scrollbars.mod"
  */
 
-var Component = require("montage/ui/component").Component;
+var Component = require("mod/ui/component").Component;
 
 /**
  * @class ScrollBars

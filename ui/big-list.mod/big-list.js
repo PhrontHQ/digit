@@ -2,10 +2,10 @@
     @module "ui/big-list.mod"
 */
 var Montage = require("montage").Montage,
-    Component = require("montage/ui/component").Component,
-    observeProperty = require("montage/frb/observers").observeProperty;
+    Component = require("mod/ui/component").Component,
+    observeProperty = require("mod/frb/observers").observeProperty;
 
-var deprecationWarning = require("montage/core/deprecate").deprecationWarning;
+var deprecationWarning = require("mod/core/deprecate").deprecationWarning;
 
 /**
     @class BigList

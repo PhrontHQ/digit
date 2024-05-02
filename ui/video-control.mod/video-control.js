@@ -1,15 +1,15 @@
 /**
     @module "ui/video-control.mod"
     @requires montage
-    @requires montage/ui/component
+    @requires mod/ui/component
 */
-var Component = require("montage/ui/component").Component,
-    AbstractButton = require("montage/ui/base/abstract-button").AbstractButton;
+var Component = require("mod/ui/component").Component,
+    AbstractButton = require("mod/ui/base/abstract-button").AbstractButton;
 
 /**
     Description TODO
     @class module:"ui/video-control.mod".VideoControl
-    @extends module:montage/ui/component.Component
+    @extends module:mod/ui/component.Component
 */
 exports.VideoControl = Component.specialize( /** @lends module:"ui/video-control.mod".VideoControl# */ {
 
