@@ -20,7 +20,7 @@ var MontageText = require("mod/ui/text.mod").Text;
  * ```
  *
  * ```html
- * <span data-montage-id="text"></span>
+ * <span data-mod-id="text"></span>
  * ```
  *
  * ### Customizing with CSS

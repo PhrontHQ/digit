@@ -15,7 +15,7 @@
 ```
 
 ```html
-<span data-montage-id="radio"></span>
+<span data-mod-id="radio"></span>
 ```
 
 

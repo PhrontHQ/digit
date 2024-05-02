@@ -7,7 +7,7 @@ The Toggle Switch component turns an `<input type="checkbox">` element into a to
 ## How to use
 
 ```html
-<input data-montage-id="toggle-switch" type="checkbox">
+<input data-mod-id="toggle-switch" type="checkbox">
 ```
 
 ```json

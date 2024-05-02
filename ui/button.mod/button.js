@@ -19,7 +19,7 @@ var AbstractButton = require("mod/ui/base/abstract-button").AbstractButton;
  * ```
  *
  * ```html
- * <button data-montage-id="button">Button</button>
+ * <button data-mod-id="button">Button</button>
  * ```
  *
  * ### Customizing with CSS

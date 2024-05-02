@@ -16,7 +16,7 @@ The Badge can be used as a notification counter or highlighting.
 ```
 
 ```html
-<span data-montage-id="badge"></span>
+<span data-mod-id="badge"></span>
 ```
 
 

@@ -20,7 +20,7 @@ var AbstractNumberField = require("mod/ui/base/abstract-number-field").AbstractN
  * ```
  *
  * ```html
- * <input data-montage-id="number" type="number">
+ * <input data-mod-id="number" type="number">
  * ```
  *
  * ### Customizing with CSS

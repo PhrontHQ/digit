@@ -6,7 +6,7 @@ var Component = require("mod/ui/component").Component;
 
 /**
  * ```html
- * <div data-montage-id="scroller" style="height: 400px; width: 500px;">
+ * <div data-mod-id="scroller" style="height: 400px; width: 500px;">
  *     <p>A large paragraph...</p>;
  *     <img src="..." alt="...">;
  *     <p>;Another large paragraph...</p>;

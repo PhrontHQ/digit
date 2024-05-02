@@ -16,7 +16,7 @@ The TextField component wraps an HTML `<input type="text">` element.
 ```
 
 ```html
-<input data-montage-id="textField" type="text">
+<input data-mod-id="textField" type="text">
 ```
 
 

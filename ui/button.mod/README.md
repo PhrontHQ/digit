@@ -16,7 +16,7 @@ The Button component wraps a `<button>`, `<input type="button">` or `<a>` elemen
 ```
 
 ```html
-<button data-montage-id="button">Button</button>
+<button data-mod-id="button">Button</button>
 ```
 
 
@@ -76,9 +76,9 @@ The ButtonGroup component wraps multiple `Button`s and groups them together.
 
 ```html
 <span class="digit-ButtonGroup">
-    <button data-montage-id="button-1">1</button>
-    <button data-montage-id="button-2">2</button>
-    <button data-montage-id="button-3">3</button>
+    <button data-mod-id="button-1">1</button>
+    <button data-mod-id="button-2">2</button>
+    <button data-mod-id="button-3">3</button>
 </span>
 ```
 

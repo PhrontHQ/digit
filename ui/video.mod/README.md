@@ -9,7 +9,7 @@ The Video component wraps a video element and provides custom controls.
 ## How to use
 
 ```html
-<div data-montage-id="video"></div>
+<div data-mod-id="video"></div>
 ```
 
 ```json
@@ -55,8 +55,8 @@ Multiple source files can be specified with the `sources` property. The Video co
 Playback of multiple videos can be synchronized by using the same MediaController.
 
 ```html
-<div data-montage-id="video1"></div>
-<div data-montage-id="video2"></div>
+<div data-mod-id="video1"></div>
+<div data-mod-id="video2"></div>
 ```
 
 ```json

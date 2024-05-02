@@ -16,7 +16,7 @@ The Text component can be used for any kind of dynamic text.
 ```
 
 ```html
-<span data-montage-id="text"></span>
+<span data-mod-id="text"></span>
 ```
 
 

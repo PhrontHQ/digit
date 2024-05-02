@@ -17,7 +17,7 @@ var AbstractTextArea = require("mod/ui/base/abstract-text-area").AbstractTextAre
  * ```
  *
  * ```html
- * <textarea data-montage-id="textArea"></textarea>
+ * <textarea data-mod-id="textArea"></textarea>
  * ```
  *
  * ### Customizing with CSS

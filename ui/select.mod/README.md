@@ -21,7 +21,7 @@ The Select Input component wraps an HTML `<select>` element.
 ```
 
 ```html
-<select data-montage-id="select"></select>
+<select data-mod-id="select"></select>
 ```
 
 

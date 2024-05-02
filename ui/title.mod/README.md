@@ -16,7 +16,7 @@ The Title component is a block element with a bold weight.
 ```
 
 ```html
-<h3 data-montage-id="title"></h3>
+<h3 data-mod-id="title"></h3>
 ```
 
 

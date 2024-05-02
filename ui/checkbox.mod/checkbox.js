@@ -17,7 +17,7 @@ var AbstractCheckbox = require("mod/ui/base/abstract-checkbox").AbstractCheckbox
  * ```
  *
  * ```html
- * <span data-montage-id="checkbox"></span>
+ * <span data-mod-id="checkbox"></span>
  * ```
  *
  * ### Customizing with CSS

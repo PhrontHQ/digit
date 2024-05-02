@@ -14,7 +14,7 @@
 ```
 
 ```html
-<span data-montage-id="checkbox"></span>
+<span data-mod-id="checkbox"></span>
 ```
 
 

@@ -17,7 +17,7 @@ The Number Field component wraps an HTML `<input type="number">` element and add
 ```
 
 ```html
-<input data-montage-id="number" type="number">
+<input data-mod-id="number" type="number">
 ```
 
 

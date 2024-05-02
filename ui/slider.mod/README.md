@@ -16,7 +16,7 @@ The Slider component wraps an HTML `<input type="range">` element.
 ```
 
 ```html
-<input data-montage-id="slider" type="range">
+<input data-mod-id="slider" type="range">
 ```
 
 

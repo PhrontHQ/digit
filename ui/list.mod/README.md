@@ -16,7 +16,7 @@ The List component wraps an `<ul>` element. It supports different kind of list i
 ```
 
 ```html
-<ul data-montage-id="list"></ul>
+<ul data-mod-id="list"></ul>
 ```
 
 

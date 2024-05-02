@@ -24,7 +24,7 @@ var AbstractSelect = require("mod/ui/base/abstract-select").AbstractSelect;
  * ```
  *
  * ```html
- * <select data-montage-id="select"></select>
+ * <select data-mod-id="select"></select>
  * ```
  *
  * See [http://montagejs.github.io/mfiddle/#!/5904481](http://montagejs.github.io/mfiddle/#!/5904481)

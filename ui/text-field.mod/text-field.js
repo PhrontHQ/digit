@@ -19,7 +19,7 @@ var AbstractTextField = require("mod/ui/base/abstract-text-field").AbstractTextF
  * ```
  *
  * ```html
- * <input data-montage-id="textField" type="text">
+ * <input data-mod-id="textField" type="text">
  * ```
  *
  * ### Customizing with CSS

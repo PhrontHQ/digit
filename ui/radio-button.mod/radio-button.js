@@ -19,7 +19,7 @@ var AbstractRadioButton = require("mod/ui/base/abstract-radio-button").AbstractR
  * ```
  *
  * ```html
- * <span data-montage-id="radio"></span>
+ * <span data-mod-id="radio"></span>
  * ```
  *
  * ### Customizing with CSS
