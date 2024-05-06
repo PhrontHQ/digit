@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>NumberField</title>
-    <script type="text/javascript" src="../../../node_modules/montage/montage.js" data-package="../../"></script>
+    <script type="text/javascript" src="../../../node_modules/mod/montage.js" data-package="../../"></script>
     <script type="text/montage-serialization">
         {
             "test": {
@@ -15,14 +15,14 @@
             },
 
             "numberField": {
-                "prototype": "digit/ui/number-field.reel",
+                "prototype": "digit/ui/number-field.mod",
                 "properties": {
                     "element": {"#": "numberField"}
                 }
             },
 
             "attributes": {
-                "prototype": "digit/ui/number-field.reel",
+                "prototype": "digit/ui/number-field.mod",
                 "properties": {
                     "element": {"#": "attributes"}
                 }
@@ -34,7 +34,7 @@
 <body>
     <h1>NumberField</h1>
 
-    <div data-montage-id="numberField"></div>
-    <div data-montage-id="attributes" max="15" min="-4" step="3" required></div>
+    <div data-mod-id="numberField"></div>
+    <div data-mod-id="attributes" max="15" min="-4" step="3" required></div>
 </body>
 </html>

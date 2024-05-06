@@ -3,7 +3,7 @@ var TestPageLoader = require("montage-testing/testpageloader").TestPageLoader;
 describe("test/big-list/big-list-spec", function() {
     var bigList;
 
-    var BigList = require("digit/ui/big-list.reel").BigList;
+    var BigList = require("digit/ui/big-list.mod").BigList;
 
     beforeEach(function () {
         bigList = new BigList();

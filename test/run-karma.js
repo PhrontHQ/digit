@@ -96,7 +96,7 @@ function injectBase(href) {
 }
 
 injectBase('/base/test/');
-injectScript('../node_modules/montage/montage.js', 'all', function (err) {
+injectScript('../node_modules/mod/montage.js', 'all', function (err) {
     if (err) {
         throw err;
     }

@@ -1,0 +1,30 @@
+{
+    "blueprint_parent": {
+        "prototype": "mod/core/meta/blueprint-reference",
+        "properties": {
+            "valueReference": {
+                "blueprintName": "Component",
+                "prototypeName": "Component",
+                "blueprintModule": {
+                    "%": "ui/component.mjson"
+                }
+            }
+        }
+    },
+    "root": {
+        "prototype": "mod/core/meta/module-blueprint",
+        "properties": {
+            "name": "ListItem",
+            "parent": {
+                "@": "blueprint_parent"
+            },
+            "blueprintModule": {
+                "%": "ui/list-item.mod/list-item.mjson"
+            },
+            "exportName": "ListItem",
+            "module": {
+                "%": "ui/list-item.mod"
+            }
+        }
+    }
+}

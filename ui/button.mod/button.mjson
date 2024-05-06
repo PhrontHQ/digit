@@ -1,0 +1,30 @@
+{
+    "blueprint_parent": {
+        "prototype": "mod/core/meta/blueprint-reference",
+        "properties": {
+            "valueReference": {
+                "blueprintName": "AbstractButton",
+                "prototypeName": "AbstractButton",
+                "blueprintModule": {
+                    "%": "mod/ui/base/abstract-button.mjson"
+                }
+            }
+        }
+    },
+    "root": {
+        "prototype": "mod/core/meta/module-blueprint",
+        "properties": {
+            "name": "Button",
+            "parent": {
+                "@": "blueprint_parent"
+            },
+            "blueprintModule": {
+                "%": "ui/button.mod/button.mjson"
+            },
+            "exportName": "Button",
+            "module": {
+                "%": "ui/button.mod"
+            }
+        }
+    }
+}

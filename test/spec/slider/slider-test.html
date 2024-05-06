@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Slider</title>
-    <script type="text/javascript" src="../../../node_modules/montage/montage.js" data-package="../../"></script>
+    <script type="text/javascript" src="../../../node_modules/mod/montage.js" data-package="../../"></script>
     <script type="text/montage-serialization">
         {
             "test": {
@@ -14,14 +14,14 @@
             },
 
             "slider": {
-                "prototype": "digit/ui/slider.reel",
+                "prototype": "digit/ui/slider.mod",
                 "properties": {
                     "element": {"#": "slider"}
                 }
             },
 
             "verticalSlider": {
-                "prototype": "digit/ui/slider.reel",
+                "prototype": "digit/ui/slider.mod",
                 "properties": {
                     "element": {"#": "verticalSlider"},
                     "axis": "vertical"
@@ -29,7 +29,7 @@
             },
 
             "verticalSlider2": {
-                "prototype": "digit/ui/slider.reel",
+                "prototype": "digit/ui/slider.mod",
                 "properties": {
                     "element": {"#": "verticalSlider2"},
                     "axis": "vertical"
@@ -42,9 +42,9 @@
 </head>
 <body data-montage-skin="light">
     <h1>Slider</h1>
-    <div data-montage-id="slider"></div>
+    <div data-mod-id="slider"></div>
     <h2>Axis: vertical</h2>
-    <div data-montage-id="verticalSlider"></div><div data-montage-id="verticalSlider2"></div>Some text right after
+    <div data-mod-id="verticalSlider"></div><div data-mod-id="verticalSlider2"></div>Some text right after
     <p>Some text below</p>
 </body>
 </html>

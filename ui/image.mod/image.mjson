@@ -1,0 +1,30 @@
+{
+    "blueprint_parent": {
+        "prototype": "mod/core/meta/blueprint-reference",
+        "properties": {
+            "valueReference": {
+                "blueprintName": "AbstractImage",
+                "prototypeName": "AbstractImage",
+                "blueprintModule": {
+                    "%": "mod/ui/base/abstract-image.mjson"
+                }
+            }
+        }
+    },
+    "root": {
+        "prototype": "mod/core/meta/module-blueprint",
+        "properties": {
+            "name": "Image",
+            "parent": {
+                "@": "blueprint_parent"
+            },
+            "blueprintModule": {
+                "%": "ui/image.mod/image.mjson"
+            },
+            "exportName": "Image",
+            "module": {
+                "%": "ui/image.mod"
+            }
+        }
+    }
+}

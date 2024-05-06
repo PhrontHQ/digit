@@ -1,0 +1,101 @@
+{
+    "blueprint_component_reference": {
+        "prototype": "mod/core/meta/blueprint-reference",
+        "properties": {
+            "valueReference": {
+                "blueprintName": "Component",
+                "prototypeName": "Component",
+                "blueprintModule": {
+                    "%": "mod/ui/component.mjson"
+                }
+            }
+        }
+    },
+    "blueprint_list_delegate": {
+        "prototype": "mod/core/meta/property-blueprint",
+        "properties": {
+            "name": "delegate",
+            "blueprint": {
+                "@": "root"
+            },
+            "valueType": "object"
+        }
+    },
+    "blueprint_list_content": {
+        "prototype": "mod/core/meta/property-blueprint",
+        "properties": {
+            "name": "content",
+            "blueprint": {
+                "@": "root"
+            },
+            "cardinality": -1,
+            "valueType": "object"
+        }
+    },
+    "blueprint_list_contentController": {
+        "prototype": "mod/core/meta/property-blueprint",
+        "properties": {
+            "name": "contentController",
+            "blueprint": {
+                "@": "root"
+            },
+            "valueType": "object"
+        }
+    },
+    "blueprint_list_isSelectionEnabled": {
+        "prototype": "mod/core/meta/property-blueprint",
+        "properties": {
+            "name": "isSelectionEnabled",
+            "blueprint": {
+                "@": "root"
+            },
+            "valueType": "boolean"
+        }
+    },
+    "root": {
+        "prototype": "mod/core/meta/module-blueprint",
+        "properties": {
+            "name": "List",
+            "parent": {
+                "@": "blueprint_component_reference"
+            },
+            "propertyBlueprints": [
+                {
+                    "@": "blueprint_list_delegate"
+                },
+                {
+                    "@": "blueprint_list_content"
+                },
+                {
+                    "@": "blueprint_list_contentController"
+                },
+                {
+                    "@": "blueprint_list_isSelectionEnabled"
+                }
+            ],
+            "propertyBlueprintGroups": {
+                "List": [
+                    {
+                        "@": "blueprint_list_delegate"
+                    },
+                    {
+                        "@": "blueprint_list_content"
+                    },
+                    {
+                        "@": "blueprint_list_contentController"
+                    },
+                    {
+                        "@": "blueprint_list_isSelectionEnabled"
+                    }
+                ]
+            },
+            "blueprintModule": {
+                "%": "ui/list.mod/list.mjson"
+            },
+            "exportName": "List",
+            "module": {
+                "%": "ui/list.mod"
+            }
+        }
+    }
+}

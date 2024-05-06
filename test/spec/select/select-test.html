@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Select</title>
-    <script type="text/javascript" src="../../../node_modules/montage/montage.js" data-package="../../"></script>
+    <script type="text/javascript" src="../../../node_modules/mod/montage.js" data-package="../../"></script>
     <script type="text/montage-serialization">
         {
             "test": {
@@ -17,14 +17,14 @@
             },
 
             "select": {
-                "prototype": "digit/ui/select.reel",
+                "prototype": "digit/ui/select.mod",
                 "properties": {
                     "element": {"#": "select"}
                 }
             },
 
             "selectWithContent": {
-                "prototype": "digit/ui/select.reel",
+                "prototype": "digit/ui/select.mod",
                 "properties": {
                     "element": {"#": "selectWithContent"},
                     "content": [
@@ -38,14 +38,14 @@
             },
 
             "selectWithOptions": {
-                "prototype": "digit/ui/select.reel",
+                "prototype": "digit/ui/select.mod",
                 "properties": {
                     "element": {"#": "selectWithOptions"}
                 }
             },
 
             "selectWithAttributes": {
-                "prototype": "digit/ui/select.reel",
+                "prototype": "digit/ui/select.mod",
                 "properties": {
                     "element": {"#": "selectWithAttributes"}
                 }
@@ -57,19 +57,19 @@
 <body>
     <h1>Select</h1>
 
-    <div data-montage-id="select"></div>
+    <div data-mod-id="select"></div>
 
-    <select data-montage-id="selectWithContent">
+    <select data-mod-id="selectWithContent">
         <option value="fail">Fail</option>
         <option value="fail-again" selected>Fail again</option>
     </select>
 
-    <select data-montage-id="selectWithOptions">
+    <select data-mod-id="selectWithOptions">
         <option value="apple">Green</option>
         <option value="banana">Yellow</option>
     </select>
 
-    <select data-montage-id="selectWithAttributes" required>
+    <select data-mod-id="selectWithAttributes" required>
         <option value="apple">Green</option>
         <option value="banana" selected>Yellow</option>
     </select>

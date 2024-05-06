@@ -4,21 +4,21 @@
 
 ## Basic components
 
-[![Button](../ui/button.reel/screenshot.png)](../ui/button.reel)
-[![RadioButton](../ui/radio-button.reel/screenshot.png)](../ui/radio-button.reel)
-[![Checkbox](../ui/checkbox.reel/screenshot.png)](../ui/checkbox.reel)
-[![Badge](../ui/badge.reel/screenshot.png)](../ui/badge.reel)
-[![Select](../ui/select.reel/screenshot.png)](../ui/select.reel)
-[![NumberField](../ui/number-field.reel/screenshot.png)](../ui/number-field.reel)
-[![ToggleSwitch](../ui/toggle-switch.reel/screenshot.png)](../ui/toggle-switch.reel)
-[![Slider](../ui/slider.reel/screenshot.png)](../ui/slider.reel)
-[![Text](../ui/text.reel/screenshot.png)](../ui/text.reel)
-[![Title](../ui/title.reel/screenshot.png)](../ui/title.reel)
-[![TextField](../ui/text-field.reel/screenshot.png)](../ui/text-field.reel)
-[![TextArea](../ui/text-area.reel/screenshot.png)](../ui/text-area.reel)
+[![Button](../ui/button.mod/screenshot.png)](../ui/button.mod)
+[![RadioButton](../ui/radio-button.mod/screenshot.png)](../ui/radio-button.mod)
+[![Checkbox](../ui/checkbox.mod/screenshot.png)](../ui/checkbox.mod)
+[![Badge](../ui/badge.mod/screenshot.png)](../ui/badge.mod)
+[![Select](../ui/select.mod/screenshot.png)](../ui/select.mod)
+[![NumberField](../ui/number-field.mod/screenshot.png)](../ui/number-field.mod)
+[![ToggleSwitch](../ui/toggle-switch.mod/screenshot.png)](../ui/toggle-switch.mod)
+[![Slider](../ui/slider.mod/screenshot.png)](../ui/slider.mod)
+[![Text](../ui/text.mod/screenshot.png)](../ui/text.mod)
+[![Title](../ui/title.mod/screenshot.png)](../ui/title.mod)
+[![TextField](../ui/text-field.mod/screenshot.png)](../ui/text-field.mod)
+[![TextArea](../ui/text-area.mod/screenshot.png)](../ui/text-area.mod)
 
 ------
 
 ## Layout components
 
-[![List](../ui/list.reel/screenshot.png)](../ui/list.reel)
+[![List](../ui/list.mod/screenshot.png)](../ui/list.mod)

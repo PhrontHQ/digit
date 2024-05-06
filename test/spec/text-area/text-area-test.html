@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Textarea</title>
-    <script type="text/javascript" src="../../../node_modules/montage/montage.js" data-package="../../"></script>
+    <script type="text/javascript" src="../../../node_modules/mod/montage.js" data-package="../../"></script>
     <script type="text/montage-serialization">
         {
             "test": {
@@ -11,14 +11,14 @@
             },
 
             "textArea": {
-                "prototype": "digit/ui/text-area.reel",
+                "prototype": "digit/ui/text-area.mod",
                 "properties": {
                     "element": {"#": "textArea"}
                 }
             },
 
             "textAreaWithAttributes": {
-                "prototype": "digit/ui/text-area.reel",
+                "prototype": "digit/ui/text-area.mod",
                 "properties": {
                     "element": {"#": "textAreaWithAttributes"}
                 }
@@ -30,7 +30,7 @@
 <body>
     <h1>Textarea</h1>
 
-    <div data-montage-id="textArea"></div>
-    <textarea data-montage-id="textAreaWithAttributes">a string</textarea>
+    <div data-mod-id="textArea"></div>
+    <textarea data-mod-id="textAreaWithAttributes">a string</textarea>
 </body>
 </html>

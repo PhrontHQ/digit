@@ -1,0 +1,30 @@
+{
+    "blueprint_parent": {
+        "prototype": "mod/core/meta/blueprint-reference",
+        "properties": {
+            "valueReference": {
+                "blueprintName": "AbstractNumberField",
+                "prototypeName": "AbstractNumberField",
+                "blueprintModule": {
+                    "%": "mod/ui/base/abstract-number-field.mjson"
+                }
+            }
+        }
+    },
+    "root": {
+        "prototype": "mod/core/meta/module-blueprint",
+        "properties": {
+            "name": "NumberField",
+            "parent": {
+                "@": "blueprint_parent"
+            },
+            "blueprintModule": {
+                "%": "ui/number-field.mod/number-field.mjson"
+            },
+            "exportName": "NumberField",
+            "module": {
+                "%": "ui/number-field.mod"
+            }
+        }
+    }
+}
