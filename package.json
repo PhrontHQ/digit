@@ -1,6 +1,6 @@
 {
   "name": "digit",
-  "description": "Touch-optimized MontageJS components for tablets and phones.",
+  "description": "Touch-optimized Mod components for tablets and phones.",
   "version": "4.0.0",
   "license": "BSD-3-Clause",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/PhrontHQ/digit.git"
   },
   "dependencies": {
-    "mod": "github:PhrontHQ/mod#mod"
+    "mod": "github:PhrontHQ/mod#main"
   },
   "devDependencies": {
     "concurrently": "^3.4.0",
